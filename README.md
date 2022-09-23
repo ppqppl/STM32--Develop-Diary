@@ -2,7 +2,7 @@
 
 ## 目录
 
-### Gcc_and_Makefile
+### [Gcc_and_Makefile](https://github.com/ppqppl/FPGA--Develop-Diary/tree/master/Gcc_and_Makefile)
 
 #### 静态库与动态库
 
