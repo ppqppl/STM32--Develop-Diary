@@ -4,7 +4,7 @@
 
 ### [Gcc_and_Makefile](https://github.com/ppqppl/FPGA--Develop-Diary/tree/master/Gcc_and_Makefile)
 
-#### 静态库与动态库
+#### [静态库与动态库](https://github.com/ppqppl/FPGA--Develop-Diary/tree/master/Gcc_and_Makefile/%E9%9D%99%E6%80%81%E5%BA%93%E4%B8%8E%E5%8A%A8%E6%80%81%E5%BA%93/test1)
 
 ##### test1
 
@@ -15,13 +15,13 @@ hello
 libmyhello.so
 libmyhello.a
 
-#### gcc
+#### [gcc](https://github.com/ppqppl/FPGA--Develop-Diary/tree/master/Gcc_and_Makefile/gcc)
 
 main.c
 main.o
 main
 
-#### Makefile
+#### [Makefile](https://github.com/ppqppl/FPGA--Develop-Diary/tree/master/Gcc_and_Makefile/Makefile)
 
 main.c
 sub1.c
@@ -33,7 +33,7 @@ main
 sub1.o
 add1.o
 
-### opencv
+### [opencv](https://github.com/ppqppl/FPGA--Develop-Diary/tree/master/opencv)
 
 makefile
 test1.cpp
