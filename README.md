@@ -8,11 +8,16 @@
 
 ##### test1
 
-hello.c\n
+hello.c
+
 hello.h
+
 main.c
+
 hello
+
 libmyhello.so
+
 libmyhello.a
 
 #### [gcc](https://github.com/ppqppl/FPGA--Develop-Diary/tree/master/Gcc_and_Makefile/gcc)
