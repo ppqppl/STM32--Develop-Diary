@@ -8,7 +8,7 @@
 
 ##### test1
 
-hello.c
+hello.c\n
 hello.h
 main.c
 hello
