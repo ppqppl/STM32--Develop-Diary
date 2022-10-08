@@ -1,0 +1,116 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             MYDATA, DATA
+    2 00000000         
+    3 00000000                 AREA             MYCODE, CODE
+    4 00000000                 ENTRY
+    5 00000000                 EXPORT           __main
+    6 00000000         
+    7 00000000         __main
+    8 00000000 F04F 000A       MOV              R0, #10
+    9 00000004 F04F 010B       MOV              R1, #11
+   10 00000008 F04F 020C       MOV              R2, #12
+   11 0000000C F04F 030D       MOV              R3, #13
+   12 00000010         ;LDR R0, =func01
+   13 00000010         
+   14 00000010 F000 F809       BL               func01
+   15 00000014         ;LDR R1, =func02
+   16 00000014 F000 F80A       BL               func02
+   17 00000018         
+   18 00000018 F000 F80B       BL               func03
+   19 0000001C F8DF E01C       LDR              LR, =func01
+   20 00000020 F8DF F01C       LDR              PC, =func03
+   21 00000024 E7FE            B                .
+   22 00000026         
+   23 00000026         func01
+   24 00000026 F04F 0505       MOV              R5, #05
+   25 0000002A 4770            BX               LR
+   26 0000002C         
+   27 0000002C         func02
+   28 0000002C F04F 0606       MOV              R6, #06
+   29 00000030 4770            BX               LR
+   30 00000032         
+   31 00000032         func03
+   32 00000032 F04F 0707       MOV              R7, #07
+   33 00000036 F04F 0808       MOV              R8, #08
+   34 0000003A 4770            BX               LR
+   35 0000003C         
+   36 0000003C                 END
+              00000000 
+              00000000 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\test.d -o.\objects\test.o -I.\RTE\Device\STM32F103C8 -I.
+\RTE\_ARM_assembly -ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CM
+SIS\Core\Include -ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2
+.4.0\Device\Include --predefine="__UVISION_VERSION SETA 536" --predefine="_RTE_
+ SETA 1" --predefine="STM32F10X_MD SETA 1" --predefine="_RTE_ SETA 1" --list=.\
+listings\test.lst MAIN\test.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MYDATA 00000000
+
+Symbol: MYDATA
+   Definitions
+      At line 1 in file MAIN\test.s
+   Uses
+      None
+Comment: MYDATA unused
+1 symbol
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MYCODE 00000000
+
+Symbol: MYCODE
+   Definitions
+      At line 3 in file MAIN\test.s
+   Uses
+      None
+Comment: MYCODE unused
+__main 00000000
+
+Symbol: __main
+   Definitions
+      At line 7 in file MAIN\test.s
+   Uses
+      At line 5 in file MAIN\test.s
+Comment: __main used once
+func01 00000026
+
+Symbol: func01
+   Definitions
+      At line 23 in file MAIN\test.s
+   Uses
+      At line 14 in file MAIN\test.s
+      At line 19 in file MAIN\test.s
+
+func02 0000002C
+
+Symbol: func02
+   Definitions
+      At line 27 in file MAIN\test.s
+   Uses
+      At line 16 in file MAIN\test.s
+Comment: func02 used once
+func03 00000032
+
+Symbol: func03
+   Definitions
+      At line 31 in file MAIN\test.s
+   Uses
+      At line 18 in file MAIN\test.s
+      At line 20 in file MAIN\test.s
+
+5 symbols
+341 symbols in table

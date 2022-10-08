@@ -1,0 +1,115 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             EXAMPLE,CODE,READONLY
+    2 00000000                 ENTRY
+    3 00000000                 EXPORT           __main
+    4 00000000         
+    5 00000000         __main
+    6 00000000 F8DF D04C       LDR              SP,=0X40000000
+    7 00000004         
+    8 00000004         ;ldr r4,=0x40000000
+    9 00000004         ;SWAP
+   10 00000004         ;ldr r5,[r4]
+   11 00000004         ;ldr r6,[r4,#4]
+   12 00000004         
+   13 00000004         ;str r5,[r4,#4]
+   14 00000004         ;str r6,[r4]
+   15 00000004         
+   16 00000004         ;ldr r5,[r4]
+   17 00000004         ;ldr r6,[r4,#4]
+   18 00000004         
+   19 00000004         ;R0,R2 INNITAIL
+   20 00000004         
+   21 00000004 4602            MOV              R2,R0
+   22 00000006         
+   23 00000006 4281    LOOP_1  CMP              R1,R0
+   24 00000008 DA19            BGE              LOOP_END
+   25 0000000A F101 0101       ADD              R1,R1,#1
+   26 0000000E F1A2 0201       SUB              R2,R2,#1
+   27 00000012 F04F 0300       MOV              R3,#0
+   28 00000016 F04F 4480       LDR              R4,=0X40000000
+   29 0000001A E7FF            B                LOOP_2
+   30 0000001C         
+   31 0000001C 4293    LOOP_2  CMP              R3,R2
+   32 0000001E DAF2            BGE              LOOP_1
+   33 00000020 F103 0301       ADD              R3,R3,#1
+   34 00000024 6825            LDR              R5,[R4]
+   35 00000026 6866            LDR              R6,[R4,#4]
+   36 00000028 F104 0404       ADD              R4,R4,#4
+   37 0000002C 42B5            CMP              R5,R6
+   38 0000002E D9F5            BLS              LOOP_2
+   39 00000030 F1A4 0404       SUB              R4,R4,#4
+   40 00000034 6065            STR              R5,[R4,#4]
+   41 00000036 6026            STR              R6,[R4]
+   42 00000038 F104 0404       ADD              R4,R4,#4
+   43 0000003C E7EE            B                LOOP_2
+   44 0000003E         
+   45 0000003E         LOOP_END
+   46 0000003E EA4F 0250       MOV              R2,R0,LSR#1
+   47 00000042 F04F 0304       MOV              R3,#4
+   48 00000046 FB02 F103       MUL              R1,R2,R3
+   49 0000004A F85D 1001       LDR              R1,[SP,R1]
+   50 0000004E         
+   51 0000004E                 END
+              00 00 40000000 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\main.d -o.\objects\main.o -I.\RTE\Device\STM32F103C8 -I.
+\RTE\_ARM_assembly -ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CM
+SIS\Core\Include -ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2
+.4.0\Device\Include --predefine="__UVISION_VERSION SETA 536" --predefine="_RTE_
+ SETA 1" --predefine="STM32F10X_MD SETA 1" --predefine="_RTE_ SETA 1" --list=.\
+listings\main.lst MAIN\main.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+EXAMPLE 00000000
+
+Symbol: EXAMPLE
+   Definitions
+      At line 1 in file MAIN\main.s
+   Uses
+      None
+Comment: EXAMPLE unused
+LOOP_1 00000006
+
+Symbol: LOOP_1
+   Definitions
+      At line 23 in file MAIN\main.s
+   Uses
+      At line 32 in file MAIN\main.s
+Comment: LOOP_1 used once
+LOOP_2 0000001C
+
+Symbol: LOOP_2
+   Definitions
+      At line 31 in file MAIN\main.s
+   Uses
+      At line 29 in file MAIN\main.s
+      At line 38 in file MAIN\main.s
+      At line 43 in file MAIN\main.s
+
+LOOP_END 0000003E
+
+Symbol: LOOP_END
+   Definitions
+      At line 45 in file MAIN\main.s
+   Uses
+      At line 24 in file MAIN\main.s
+Comment: LOOP_END used once
+__main 00000000
+
+Symbol: __main
+   Definitions
+      At line 5 in file MAIN\main.s
+   Uses
+      At line 3 in file MAIN\main.s
+Comment: __main used once
+5 symbols
+340 symbols in table
