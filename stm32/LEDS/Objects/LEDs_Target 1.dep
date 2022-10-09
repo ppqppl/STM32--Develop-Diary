@@ -1,0 +1,12 @@
+Dependencies for Project 'LEDs', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\MAIN\LED.c)(0x634293BB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (D:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD795E)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6340F47C)
+I (D:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D3E8E2)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (D:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (D:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (D:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD795E)
+F (.\CORE\startup_stm32f10x_md.s)(0x61605445)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
