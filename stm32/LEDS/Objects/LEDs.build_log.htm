@@ -16,18 +16,26 @@ Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
 Library Manager: ArmAr.exe V5.06 update 7 (build 960)
 Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
 CPU DLL:         SARMCM3.DLL V5.36.0.0
-Dialog DLL:      DCM.DLL V1.17.3.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
 Target DLL:      Segger\JL2CM3.dll V2.99.40.0
-Dialog DLL:      TCM.DLL V1.53.0.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
  
 <h2>Project:</h2>
 D:\code-file\stm32\LEDS\LEDs.uvprojx
-Project File Date:  10/09/2022
+Project File Date:  10/13/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin'
-Build target 'Target 1'
-".\Objects\LEDs.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_md.s...
+compiling LED.c...
+MAIN\LED.c(65): warning:  #1-D: last line of file ends without a newline
+  }
+MAIN\LED.c: 1 warning, 0 errors
+linking...
+Program Size: Code=616 RO-data=252 RW-data=0 ZI-data=1632  
+FromELF: creating hex file...
+".\Objects\LEDs.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 

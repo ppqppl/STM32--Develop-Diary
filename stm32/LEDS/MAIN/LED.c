@@ -14,7 +14,6 @@
 	
 void SystemInit(){}
 
-// 设置延时函数，每个熄灭起后，延时1秒另一个灯亮起，delay_ms 表示为毫秒级延时
 void delay(u32 time){
 	u32 i = 0;
 	while(time--){
@@ -50,18 +49,17 @@ int main(void){
 	while(1){
 		GPIOA_ODR &= ~(1<<5);	//PB5低电平,因为是置0，所以用按位与
 		delay(1000);
-		GPIOA_ODR |= 1<<5;		// 设置高电位，点亮
-		//delay(1000);
+		GPIOA_ODR |= 1<<5;		// 设置高电位
+		
+		// 后面的两个灯的设置方式与上面相同
 		
 		GPIOB_ODR &= ~(1<<9);
 		delay(1000);
 		GPIOB_ODR |= 1<<9;
-		//delay(1000);
 		
 		GPIOC_ODR &= ~(1<<14);
 		delay(1000);
 		GPIOC_ODR |= 1<<14;
-		//delay(1000);
 	}
 	
 }

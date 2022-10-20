@@ -1,0 +1,9 @@
+Dependencies for Project 'USART', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\MAIN\main.c)(0x634FA761)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I D:\environment\Stm32\Stander_Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -I D:\environment\Stm32\Stander_Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\src -I D:\environment\Stm32\Stander_Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport -I D:\environment\Stm32\Stander_Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\environment\Stm32\Stander_Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (D:\environment\Stm32\Stander_Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4D783CB4)
+I (D:\environment\Stm32\Stander_Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\environment\Stm32\Stander_Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+F (.\CORE\startup_stm32f10x_md.s)(0x61605445)(--cpu Cortex-M3 -g --apcs=interwork -ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
