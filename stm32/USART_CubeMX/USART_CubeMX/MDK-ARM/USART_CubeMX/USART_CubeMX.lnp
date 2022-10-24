@@ -20,7 +20,7 @@
 "usart_cubemx\stm32f1xx_hal_flash_ex.o"
 "usart_cubemx\stm32f1xx_hal_exti.o"
 "usart_cubemx\system_stm32f1xx.o"
---strict --scatter "USART_CubeMX\USART_CubeMX.sct"
+--library_type=microlib --strict --scatter "USART_CubeMX\USART_CubeMX.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "USART_CubeMX.map" -o USART_CubeMX\USART_CubeMX.axf

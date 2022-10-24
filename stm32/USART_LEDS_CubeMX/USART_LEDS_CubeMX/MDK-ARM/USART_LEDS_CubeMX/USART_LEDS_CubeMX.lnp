@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"usart_leds_cubemx\startup_stm32f103xb.o"
+"usart_leds_cubemx\main.o"
+"usart_leds_cubemx\gpio.o"
+"usart_leds_cubemx\stm32f1xx_it.o"
+"usart_leds_cubemx\stm32f1xx_hal_msp.o"
+"usart_leds_cubemx\stm32f1xx_hal_gpio_ex.o"
+"usart_leds_cubemx\stm32f1xx_hal_tim.o"
+"usart_leds_cubemx\stm32f1xx_hal_tim_ex.o"
+"usart_leds_cubemx\stm32f1xx_hal.o"
+"usart_leds_cubemx\stm32f1xx_hal_rcc.o"
+"usart_leds_cubemx\stm32f1xx_hal_rcc_ex.o"
+"usart_leds_cubemx\stm32f1xx_hal_gpio.o"
+"usart_leds_cubemx\stm32f1xx_hal_dma.o"
+"usart_leds_cubemx\stm32f1xx_hal_cortex.o"
+"usart_leds_cubemx\stm32f1xx_hal_pwr.o"
+"usart_leds_cubemx\stm32f1xx_hal_flash.o"
+"usart_leds_cubemx\stm32f1xx_hal_flash_ex.o"
+"usart_leds_cubemx\stm32f1xx_hal_exti.o"
+"usart_leds_cubemx\system_stm32f1xx.o"
+--strict --scatter "USART_LEDS_CubeMX\USART_LEDS_CubeMX.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "USART_LEDS_CubeMX.map" -o USART_LEDS_CubeMX\USART_LEDS_CubeMX.axf
