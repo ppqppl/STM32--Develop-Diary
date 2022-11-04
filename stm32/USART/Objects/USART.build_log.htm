@@ -26,8 +26,7 @@ Project File Date:  10/19/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin'
-Rebuild target 'Target 1'
-assembling startup_stm32f10x_md.s...
+Build target 'Target 1'
 compiling main.c...
 MAIN\main.c(16): error:  #136: struct "<unnamed>"  has no field "AHB1ENR"
   	RCC->AHB1ENR |= 1<<0;   //使能A口时钟
@@ -49,8 +48,8 @@ MAIN\main.c(28): error:  #136: struct "<unnamed>"  has no field "AFR"
   	GPIOA->AFR[1] |= (0x77 << 4);   //0111 0111高位  复用为AF7 usart1
 MAIN\main.c(67): error:  #20: identifier "FILE" is undefined
   int fputc(int ch,FILE *stream)
-MAIN\main.c(111): warning:  #1-D: last line of file ends without a newline
-   
+MAIN\main.c(113): warning:  #1-D: last line of file ends without a newline
+   }
 MAIN\main.c: 1 warning, 10 errors
 ".\Objects\USART.axf" - 10 Error(s), 1 Warning(s).
 
@@ -66,7 +65,7 @@ Package Vendor: Keil
 
 <h2>Collection of Component Files used:</h2>
 Target not created.
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:00
 </pre>
 </body>
 </html>

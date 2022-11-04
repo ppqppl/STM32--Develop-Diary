@@ -55,6 +55,8 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+#define COUNTOF(a) (sizeof(a)/sizeof(*(a)))
+
 /* USER CODE END 0 */
 
 /**
@@ -92,16 +94,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	
+
 	uint8_t str[] = "Hello ppqppl !\r\n";
 	
   while (1)
   {
-		HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,GPIO_PIN_RESET);
-		HAL_Delay(500);
-		HAL_UART_Transmit(&huart1, str, sizeof(str),0xFFFF);
-		HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,GPIO_PIN_SET);
-		HAL_Delay(500);
+		HAL_UART_Transmit(&huart1, (uint8_t*)str, sizeof(str),0xFFFF);
+		HAL_Delay(100);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
