@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"pwm_cubemx\startup_stm32f103xb.o"
+"pwm_cubemx\main.o"
+"pwm_cubemx\gpio.o"
+"pwm_cubemx\tim.o"
+"pwm_cubemx\stm32f1xx_it.o"
+"pwm_cubemx\stm32f1xx_hal_msp.o"
+"pwm_cubemx\stm32f1xx_hal_gpio_ex.o"
+"pwm_cubemx\stm32f1xx_hal_tim.o"
+"pwm_cubemx\stm32f1xx_hal_tim_ex.o"
+"pwm_cubemx\stm32f1xx_hal.o"
+"pwm_cubemx\stm32f1xx_hal_rcc.o"
+"pwm_cubemx\stm32f1xx_hal_rcc_ex.o"
+"pwm_cubemx\stm32f1xx_hal_gpio.o"
+"pwm_cubemx\stm32f1xx_hal_dma.o"
+"pwm_cubemx\stm32f1xx_hal_cortex.o"
+"pwm_cubemx\stm32f1xx_hal_pwr.o"
+"pwm_cubemx\stm32f1xx_hal_flash.o"
+"pwm_cubemx\stm32f1xx_hal_flash_ex.o"
+"pwm_cubemx\stm32f1xx_hal_exti.o"
+"pwm_cubemx\system_stm32f1xx.o"
+--strict --scatter "PWM_CubeMX\PWM_CubeMX.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PWM_CubeMX.map" -o PWM_CubeMX\PWM_CubeMX.axf
