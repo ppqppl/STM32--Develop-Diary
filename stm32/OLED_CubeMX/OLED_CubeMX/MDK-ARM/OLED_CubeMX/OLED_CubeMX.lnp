@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"oled_cubemx\startup_stm32f103xb.o"
+"oled_cubemx\main.o"
+"oled_cubemx\gpio.o"
+"oled_cubemx\spi.o"
+"oled_cubemx\stm32f1xx_it.o"
+"oled_cubemx\stm32f1xx_hal_msp.o"
+"oled_cubemx\stm32f1xx_hal_gpio_ex.o"
+"oled_cubemx\stm32f1xx_hal_spi.o"
+"oled_cubemx\stm32f1xx_hal.o"
+"oled_cubemx\stm32f1xx_hal_rcc.o"
+"oled_cubemx\stm32f1xx_hal_rcc_ex.o"
+"oled_cubemx\stm32f1xx_hal_gpio.o"
+"oled_cubemx\stm32f1xx_hal_dma.o"
+"oled_cubemx\stm32f1xx_hal_cortex.o"
+"oled_cubemx\stm32f1xx_hal_pwr.o"
+"oled_cubemx\stm32f1xx_hal_flash.o"
+"oled_cubemx\stm32f1xx_hal_flash_ex.o"
+"oled_cubemx\stm32f1xx_hal_exti.o"
+"oled_cubemx\stm32f1xx_hal_tim.o"
+"oled_cubemx\stm32f1xx_hal_tim_ex.o"
+"oled_cubemx\system_stm32f1xx.o"
+"oled_cubemx\oled_1.o"
+"oled_cubemx\gui.o"
+--strict --scatter "OLED_CubeMX\OLED_CubeMX.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "OLED_CubeMX.map" -o OLED_CubeMX\OLED_CubeMX.axf

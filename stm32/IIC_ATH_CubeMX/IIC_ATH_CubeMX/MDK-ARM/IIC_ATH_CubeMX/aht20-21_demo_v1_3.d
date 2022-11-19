@@ -1,0 +1,10 @@
+iic_ath_cubemx\aht20-21_demo_v1_3.o: ATH\AHT20-21_DEMO_V1_3.c
+iic_ath_cubemx\aht20-21_demo_v1_3.o: D:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h
+iic_ath_cubemx\aht20-21_demo_v1_3.o: .\RTE\_IIC_ATH_CubeMX\RTE_Components.h
+iic_ath_cubemx\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Include/core_cm3.h
+iic_ath_cubemx\aht20-21_demo_v1_3.o: D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin\..\include\stdint.h
+iic_ath_cubemx\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Include/cmsis_version.h
+iic_ath_cubemx\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+iic_ath_cubemx\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+iic_ath_cubemx\aht20-21_demo_v1_3.o: D:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h
+iic_ath_cubemx\aht20-21_demo_v1_3.o: ATH\AHT20-21_DEMO_V1_3.h
