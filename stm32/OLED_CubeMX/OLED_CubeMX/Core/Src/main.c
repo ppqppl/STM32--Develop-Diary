@@ -122,14 +122,14 @@ int main(void)
 
 	OLED_WR_Byte(0x07,OLED_CMD); //滚动时间间隔
 
-	OLED_WR_Byte(0x02,OLED_CMD); //终止页 2
+	OLED_WR_Byte(0x07,OLED_CMD); //终止页 7，即全屏
 
 	OLED_WR_Byte(0x00,OLED_CMD); //虚拟字节
 
 	OLED_WR_Byte(0xFF,OLED_CMD); //虚拟字节
 	
 	// 诗句
-	GUI_ShowCHinese(10,0,16,(uint8_t *)"春有百花秋有月",1);
+	GUI_ShowCHinese(10,24,16,(uint8_t *)"春有百花秋有月",1);
 	OLED_WR_Byte(0x2F,OLED_CMD); //开启滚动
 
   /* USER CODE END 2 */

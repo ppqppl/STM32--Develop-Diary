@@ -1,0 +1,32 @@
+temperature\aht20-21_demo_v1_3.o: ..\AHT20-21 DEMO V1_3\AHT20-21_DEMO_V1_3.c
+temperature\aht20-21_demo_v1_3.o: ../Inc/main.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+temperature\aht20-21_demo_v1_3.o: ../Inc/stm32f1xx_hal_conf.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Include/core_cm3.h
+temperature\aht20-21_demo_v1_3.o: D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin\..\include\stdint.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Include/cmsis_version.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+temperature\aht20-21_demo_v1_3.o: D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin\..\include\stddef.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+temperature\aht20-21_demo_v1_3.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+temperature\aht20-21_demo_v1_3.o: ..\AHT20-21 DEMO V1_3\AHT20-21_DEMO_V1_3.h
+temperature\aht20-21_demo_v1_3.o: ../Inc/gpio.h
+temperature\aht20-21_demo_v1_3.o: ../Inc/i2c.h

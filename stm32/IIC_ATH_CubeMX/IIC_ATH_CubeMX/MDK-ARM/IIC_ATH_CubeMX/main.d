@@ -27,9 +27,8 @@ iic_ath_cubemx\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_e
 iic_ath_cubemx\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
 iic_ath_cubemx\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 iic_ath_cubemx\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
-iic_ath_cubemx\main.o: ../Core/Inc/dma.h
 iic_ath_cubemx\main.o: ../Core/Inc/i2c.h
 iic_ath_cubemx\main.o: ../Core/Inc/usart.h
 iic_ath_cubemx\main.o: ../Core/Inc/gpio.h
+iic_ath_cubemx\main.o: .\AHT20\AHT20.h
 iic_ath_cubemx\main.o: D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin\..\include\stdio.h
-iic_ath_cubemx\main.o: ./ATH/AHT20.h

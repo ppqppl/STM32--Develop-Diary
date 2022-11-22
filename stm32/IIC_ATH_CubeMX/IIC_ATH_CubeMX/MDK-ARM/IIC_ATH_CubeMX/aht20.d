@@ -1,4 +1,4 @@
-iic_ath_cubemx\aht20.o: ATH\AHT20.c
+iic_ath_cubemx\aht20.o: AHT20\AHT20.c
 iic_ath_cubemx\aht20.o: ../Core/Inc/main.h
 iic_ath_cubemx\aht20.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 iic_ath_cubemx\aht20.o: ../Core/Inc/stm32f1xx_hal_conf.h
@@ -27,6 +27,6 @@ iic_ath_cubemx\aht20.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_
 iic_ath_cubemx\aht20.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
 iic_ath_cubemx\aht20.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 iic_ath_cubemx\aht20.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
-iic_ath_cubemx\aht20.o: ATH\AHT20.h
+iic_ath_cubemx\aht20.o: AHT20\AHT20.h
 iic_ath_cubemx\aht20.o: ../Core/Inc/gpio.h
 iic_ath_cubemx\aht20.o: ../Core/Inc/i2c.h

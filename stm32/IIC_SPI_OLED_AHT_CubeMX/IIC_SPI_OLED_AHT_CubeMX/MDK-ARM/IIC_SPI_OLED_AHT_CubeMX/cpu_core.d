@@ -1,0 +1,11 @@
+iic_spi_oled_aht_cubemx\cpu_core.o: UCOS\uC-CPU\cpu_core.c
+iic_spi_oled_aht_cubemx\cpu_core.o: .\UCOS\uC-CPU\cpu_core.h
+iic_spi_oled_aht_cubemx\cpu_core.o: .\UCOS\uC-CPU\ARM-Cortex-M3\RealView\cpu.h
+iic_spi_oled_aht_cubemx\cpu_core.o: .\UCOS\uC-CPU\cpu_def.h
+iic_spi_oled_aht_cubemx\cpu_core.o: .\UCOS\uC-CONFIG\cpu_cfg.h
+iic_spi_oled_aht_cubemx\cpu_core.o: .\UCOS\uC-LIB\lib_def.h
+iic_spi_oled_aht_cubemx\cpu_core.o: .\UCOS\uC-LIB\lib_mem.h
+iic_spi_oled_aht_cubemx\cpu_core.o: .\UCOS\uC-CPU\cpu_core.h
+iic_spi_oled_aht_cubemx\cpu_core.o: .\UCOS\uC-CONFIG\lib_cfg.h
+iic_spi_oled_aht_cubemx\cpu_core.o: .\UCOS\uC-LIB\lib_str.h
+iic_spi_oled_aht_cubemx\cpu_core.o: .\UCOS\uC-LIB\lib_ascii.h

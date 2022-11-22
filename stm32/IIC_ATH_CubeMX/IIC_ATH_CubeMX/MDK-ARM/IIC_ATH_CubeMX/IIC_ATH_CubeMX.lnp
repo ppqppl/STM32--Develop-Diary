@@ -2,7 +2,6 @@
 "iic_ath_cubemx\startup_stm32f103xb.o"
 "iic_ath_cubemx\main.o"
 "iic_ath_cubemx\gpio.o"
-"iic_ath_cubemx\dma.o"
 "iic_ath_cubemx\i2c.o"
 "iic_ath_cubemx\usart.o"
 "iic_ath_cubemx\stm32f1xx_it.o"
@@ -24,7 +23,7 @@
 "iic_ath_cubemx\stm32f1xx_hal_uart.o"
 "iic_ath_cubemx\system_stm32f1xx.o"
 "iic_ath_cubemx\aht20.o"
---strict --scatter "IIC_ATH_CubeMX\IIC_ATH_CubeMX.sct"
+--library_type=microlib --strict --scatter "IIC_ATH_CubeMX\IIC_ATH_CubeMX.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "IIC_ATH_CubeMX.map" -o IIC_ATH_CubeMX\IIC_ATH_CubeMX.axf
