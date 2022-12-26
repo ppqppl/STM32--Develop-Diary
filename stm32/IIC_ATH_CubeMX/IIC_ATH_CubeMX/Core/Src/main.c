@@ -151,7 +151,7 @@ int main(void)
 		HAL_Delay(100);
 		printf(".");
 		printf("\r\n");
-		printf("温度:%d%d.%d",t1/100,(t1/10)%10,t1%10);	// 这里需要对温度进行计算后才能得到我们需要的温度值
+		printf("温度:%d%d.%d",t1/100,(t1/10)%10,t1%10);	// 这里需要对温度进行计算后才能得到我们需要的温度值                    /0/00
 		printf("湿度:%d%d.%d",c1/100,(c1/10)%10,c1%10); // 这里同样需要对适度进行计算
 		HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,GPIO_PIN_SET);	// 使用 PC13 引脚上的板载小灯泡进行测试——小灯泡灭
 		printf("\r\n");

@@ -1,0 +1,1672 @@
+Dependencies for Project 'Modbus_CubeMX', Target 'Modbus_CubeMX': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (startup_stm32f103xb.s)(0x63A73724)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o modbus_cubemx\startup_stm32f103xb.o --depend modbus_cubemx\startup_stm32f103xb.d)
+F (.\app_rt_thread.c)(0x63A72F2A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\app_rt_thread.o --omf_browse modbus_cubemx\app_rt_thread.crf --depend modbus_cubemx\app_rt_thread.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (../Core/Inc/i2c.h)(0x63A690E2)
+I (../Core/Inc/usart.h)(0x63A690E3)
+I (../Core/Inc/gpio.h)(0x63A690E2)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (./AHT20/AHT20.h)(0x637BA3E3)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+F (../Core/Src/main.c)(0x63A72F37)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\main.o --omf_browse modbus_cubemx\main.crf --depend modbus_cubemx\main.d)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (../Core/Inc/dma.h)(0x63A6FD85)
+I (../Core/Inc/i2c.h)(0x63A690E2)
+I (../Core/Inc/tim.h)(0x63A690E3)
+I (../Core/Inc/usart.h)(0x63A690E3)
+I (../Core/Inc/gpio.h)(0x63A690E2)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (./AHT20/AHT20.h)(0x637BA3E3)
+F (../Core/Src/gpio.c)(0x63A690E2)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\gpio.o --omf_browse modbus_cubemx\gpio.crf --depend modbus_cubemx\gpio.d)
+I (../Core/Inc/gpio.h)(0x63A690E2)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Core/Src/dma.c)(0x63A6FD84)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\dma.o --omf_browse modbus_cubemx\dma.crf --depend modbus_cubemx\dma.d)
+I (../Core/Inc/dma.h)(0x63A6FD85)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Core/Src/i2c.c)(0x63A6FD85)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\i2c.o --omf_browse modbus_cubemx\i2c.crf --depend modbus_cubemx\i2c.d)
+I (../Core/Inc/i2c.h)(0x63A690E2)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Core/Src/tim.c)(0x63A690E3)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\tim.o --omf_browse modbus_cubemx\tim.crf --depend modbus_cubemx\tim.d)
+I (../Core/Inc/tim.h)(0x63A690E3)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Core/Src/usart.c)(0x63A690E3)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\usart.o --omf_browse modbus_cubemx\usart.crf --depend modbus_cubemx\usart.d)
+I (../Core/Inc/usart.h)(0x63A690E3)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Core/Src/stm32f1xx_it.c)(0x63A73722)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_it.o --omf_browse modbus_cubemx\stm32f1xx_it.crf --depend modbus_cubemx\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_it.h)(0x63A73722)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x63A690E3)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_msp.o --omf_browse modbus_cubemx\stm32f1xx_hal_msp.crf --depend modbus_cubemx\stm32f1xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_gpio_ex.o --omf_browse modbus_cubemx\stm32f1xx_hal_gpio_ex.crf --depend modbus_cubemx\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_i2c.o --omf_browse modbus_cubemx\stm32f1xx_hal_i2c.crf --depend modbus_cubemx\stm32f1xx_hal_i2c.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal.o --omf_browse modbus_cubemx\stm32f1xx_hal.crf --depend modbus_cubemx\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_rcc.o --omf_browse modbus_cubemx\stm32f1xx_hal_rcc.crf --depend modbus_cubemx\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_rcc_ex.o --omf_browse modbus_cubemx\stm32f1xx_hal_rcc_ex.crf --depend modbus_cubemx\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_gpio.o --omf_browse modbus_cubemx\stm32f1xx_hal_gpio.crf --depend modbus_cubemx\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_dma.o --omf_browse modbus_cubemx\stm32f1xx_hal_dma.crf --depend modbus_cubemx\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_cortex.o --omf_browse modbus_cubemx\stm32f1xx_hal_cortex.crf --depend modbus_cubemx\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_pwr.o --omf_browse modbus_cubemx\stm32f1xx_hal_pwr.crf --depend modbus_cubemx\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_flash.o --omf_browse modbus_cubemx\stm32f1xx_hal_flash.crf --depend modbus_cubemx\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_flash_ex.o --omf_browse modbus_cubemx\stm32f1xx_hal_flash_ex.crf --depend modbus_cubemx\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_exti.o --omf_browse modbus_cubemx\stm32f1xx_hal_exti.crf --depend modbus_cubemx\stm32f1xx_hal_exti.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_tim.o --omf_browse modbus_cubemx\stm32f1xx_hal_tim.crf --depend modbus_cubemx\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_tim_ex.o --omf_browse modbus_cubemx\stm32f1xx_hal_tim_ex.crf --depend modbus_cubemx\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\stm32f1xx_hal_uart.o --omf_browse modbus_cubemx\stm32f1xx_hal_uart.crf --depend modbus_cubemx\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Core/Src/system_stm32f1xx.c)(0x6342E270)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\system_stm32f1xx.o --omf_browse modbus_cubemx\system_stm32f1xx.crf --depend modbus_cubemx\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (.\AHT20\AHT20.c)(0x637BA97F)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\aht20.o --omf_browse modbus_cubemx\aht20.crf --depend modbus_cubemx\aht20.d)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (AHT20\AHT20.h)(0x637BA3E3)
+I (../Core/Inc/gpio.h)(0x63A690E2)
+I (../Core/Inc/i2c.h)(0x63A690E2)
+F (.\AHT20\AHT20.h)(0x637BA3E3)()
+F (.\STM32F103C8T6_Mosbus\modbus\ascii\mbascii.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbascii.o --omf_browse modbus_cubemx\mbascii.crf --depend modbus_cubemx\mbascii.d)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbconfig.h)(0x5B9AC245)
+I (STM32F103C8T6_Mosbus\modbus\ascii\mbascii.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbframe.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/rtu/mbcrc.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\modbus\ascii\mbascii.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\functions\mbfunccoils.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbfunccoils.o --omf_browse modbus_cubemx\mbfunccoils.crf --depend modbus_cubemx\mbfunccoils.d)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbframe.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbconfig.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\modbus\functions\mbfuncdiag.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbfuncdiag.o --omf_browse modbus_cubemx\mbfuncdiag.crf --depend modbus_cubemx\mbfuncdiag.d)
+F (.\STM32F103C8T6_Mosbus\modbus\functions\mbfuncdisc.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbfuncdisc.o --omf_browse modbus_cubemx\mbfuncdisc.crf --depend modbus_cubemx\mbfuncdisc.d)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbframe.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbconfig.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\modbus\functions\mbfuncholding.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbfuncholding.o --omf_browse modbus_cubemx\mbfuncholding.crf --depend modbus_cubemx\mbfuncholding.d)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbframe.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbconfig.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\modbus\functions\mbfuncinput.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbfuncinput.o --omf_browse modbus_cubemx\mbfuncinput.crf --depend modbus_cubemx\mbfuncinput.d)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbframe.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbconfig.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\modbus\functions\mbfuncother.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbfuncother.o --omf_browse modbus_cubemx\mbfuncother.crf --depend modbus_cubemx\mbfuncother.d)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbframe.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbconfig.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\modbus\functions\mbutils.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbutils.o --omf_browse modbus_cubemx\mbutils.crf --depend modbus_cubemx\mbutils.d)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\modbus\include\mb.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\include\mbconfig.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\include\mbframe.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\include\mbfunc.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\include\mbport.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\include\mbproto.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\include\mbutils.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\rtu\mbcrc.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbcrc.o --omf_browse modbus_cubemx\mbcrc.crf --depend modbus_cubemx\mbcrc.d)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (.\STM32F103C8T6_Mosbus\modbus\rtu\mbcrc.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\rtu\mbrtu.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbrtu.o --omf_browse modbus_cubemx\mbrtu.crf --depend modbus_cubemx\mbrtu.d)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (STM32F103C8T6_Mosbus\modbus\rtu\mbrtu.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbframe.h)(0x5B9AC245)
+I (STM32F103C8T6_Mosbus\modbus\rtu\mbcrc.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\modbus\rtu\mbrtu.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\tcp\mbtcp.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mbtcp.o --omf_browse modbus_cubemx\mbtcp.crf --depend modbus_cubemx\mbtcp.d)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbconfig.h)(0x5B9AC245)
+I (STM32F103C8T6_Mosbus\modbus\tcp\mbtcp.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbframe.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\modbus\tcp\mbtcp.h)(0x5B9AC245)()
+F (.\STM32F103C8T6_Mosbus\modbus\mb.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mb.o --omf_browse modbus_cubemx\mb.crf --depend modbus_cubemx\mb.d)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbconfig.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbframe.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbfunc.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/rtu/mbrtu.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/ascii/mbascii.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\port\port.h)(0x63A72649)()
+F (.\STM32F103C8T6_Mosbus\port\portevent.c)(0x5B9AC245)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\portevent.o --omf_browse modbus_cubemx\portevent.crf --depend modbus_cubemx\portevent.d)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+F (.\STM32F103C8T6_Mosbus\port\portserial.c)(0x63A6CFD5)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\portserial.o --omf_browse modbus_cubemx\portserial.crf --depend modbus_cubemx\portserial.d)
+I (STM32F103C8T6_Mosbus\port\port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (../Core/Inc/usart.h)(0x63A690E3)
+I (../Core/Inc/main.h)(0x63A690E3)
+F (.\STM32F103C8T6_Mosbus\port\porttimer.c)(0x63A70DAC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\porttimer.o --omf_browse modbus_cubemx\porttimer.crf --depend modbus_cubemx\porttimer.d)
+I (STM32F103C8T6_Mosbus\port\port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (../Core/Inc/tim.h)(0x63A690E3)
+I (../Core/Inc/main.h)(0x63A690E3)
+F (.\STM32F103C8T6_Mosbus\demo.c)(0x63A72F22)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\demo.o --omf_browse modbus_cubemx\demo.crf --depend modbus_cubemx\demo.d)
+I (./STM32F103C8T6_Mosbus/modbus/include/mb.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/port/port.h)(0x63A72649)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbport.h)(0x5B9AC245)
+I (./STM32F103C8T6_Mosbus/modbus/include/mbproto.h)(0x5B9AC245)
+I (./AHT20/AHT20.h)(0x637BA3E3)
+F (../Middlewares/Third_Party/RealThread_RTOS/libcpu/arm/cortex-m3/context_rvds.S)(0x63A10DE7)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list context_rvds.lst --xref -o modbus_cubemx\context_rvds.o --depend modbus_cubemx\context_rvds.d)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/clock.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\clock.o --omf_browse modbus_cubemx\clock.crf --depend modbus_cubemx\clock.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/components.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\components.o --omf_browse modbus_cubemx\components.crf --depend modbus_cubemx\components.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/cpu.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\cpu.o --omf_browse modbus_cubemx\cpu.crf --depend modbus_cubemx\cpu.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/idle.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\idle.o --omf_browse modbus_cubemx\idle.crf --depend modbus_cubemx\idle.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/ipc.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\ipc.o --omf_browse modbus_cubemx\ipc.crf --depend modbus_cubemx\ipc.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/irq.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\irq.o --omf_browse modbus_cubemx\irq.crf --depend modbus_cubemx\irq.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/kservice.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\kservice.o --omf_browse modbus_cubemx\kservice.crf --depend modbus_cubemx\kservice.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/mem.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mem.o --omf_browse modbus_cubemx\mem.crf --depend modbus_cubemx\mem.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/memheap.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\memheap.o --omf_browse modbus_cubemx\memheap.crf --depend modbus_cubemx\memheap.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/mempool.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\mempool.o --omf_browse modbus_cubemx\mempool.crf --depend modbus_cubemx\mempool.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/object.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\object.o --omf_browse modbus_cubemx\object.crf --depend modbus_cubemx\object.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/scheduler.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\scheduler.o --omf_browse modbus_cubemx\scheduler.crf --depend modbus_cubemx\scheduler.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/slab.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\slab.o --omf_browse modbus_cubemx\slab.crf --depend modbus_cubemx\slab.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/thread.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\thread.o --omf_browse modbus_cubemx\thread.crf --depend modbus_cubemx\thread.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/src/timer.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\timer.o --omf_browse modbus_cubemx\timer.crf --depend modbus_cubemx\timer.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/libcpu/arm/cortex-m3/cpuport.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\cpuport.o --omf_browse modbus_cubemx\cpuport.crf --depend modbus_cubemx\cpuport.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config/board.c)(0x63A7375E)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\board.o --omf_browse modbus_cubemx\board.crf --depend modbus_cubemx\board.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Core/Inc/main.h)(0x63A690E3)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x6342E270)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x63A73722)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x6342E270)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x6342E270)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x6342E263)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6342E263)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6342E263)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6342E270)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x6342E270)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x6342E270)
+F (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/cmd.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\cmd.o --omf_browse modbus_cubemx\cmd.crf --depend modbus_cubemx\cmd.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_api.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\ctype.h)(0x60252376)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+F (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_port.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\finsh_port.o --omf_browse modbus_cubemx\finsh_port.crf --depend modbus_cubemx\finsh_port.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/msh.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\msh.o --omf_browse modbus_cubemx\msh.crf --depend modbus_cubemx\msh.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/msh.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\ctype.h)(0x60252376)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/shell.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/shell.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\shell.o --omf_browse modbus_cubemx\shell.crf --depend modbus_cubemx\shell.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_api.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\ctype.h)(0x60252376)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/shell.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/components/finsh/msh.h)(0x63A10DE7)
+F (../Middlewares/Third_Party/RealThread_RTOS/components/device/device.c)(0x63A10DE7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../RT-Thread -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/RealThread_RTOS/include/ -I ../Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config -I ../Middlewares/Third_Party/RealThread_RTOS/finsh/ -I ../Middlewares/Third_Party/RealThread_RTOS/components/finsh -I ./STM32F103C8T6_Mosbus/modbus/ascii -I ./STM32F103C8T6_Mosbus/modbus/include -I ./STM32F103C8T6_Mosbus/modbus/rtu -I ./STM32F103C8T6_Mosbus/modbus/tcp -I ./STM32F103C8T6_Mosbus/port -I ./AHT20-I.\RTE\_Modbus_CubeMX-ID:\environment\Stm32\Kali_v5_5.36\packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\environment\Stm32\Kali_v5_5.36\packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o modbus_cubemx\device.o --omf_browse modbus_cubemx\device.crf --depend modbus_cubemx\device.d)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h)(0x63A10DE7)
+I (../RT-Thread/rtconfig.h)(0x63A7373E)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h)(0x63A10DE7)
+I (D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\include\stdarg.h)(0x60252376)
+I (../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h)(0x63A10DE7)
+I (../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h)(0x63A10DE7)

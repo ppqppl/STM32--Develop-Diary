@@ -1,0 +1,17 @@
+modbus_cubemx\cmd.o: ../Middlewares/Third_Party/RealThread_RTOS/components/finsh/cmd.c
+modbus_cubemx\cmd.o: ../Middlewares/Third_Party/RealThread_RTOS/include/rthw.h
+modbus_cubemx\cmd.o: ../Middlewares/Third_Party/RealThread_RTOS/include/rtthread.h
+modbus_cubemx\cmd.o: ../RT-Thread/rtconfig.h
+modbus_cubemx\cmd.o: ../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_config.h
+modbus_cubemx\cmd.o: ../Middlewares/Third_Party/RealThread_RTOS/include/rtdebug.h
+modbus_cubemx\cmd.o: ../Middlewares/Third_Party/RealThread_RTOS/include/rtdef.h
+modbus_cubemx\cmd.o: D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin\..\include\stdarg.h
+modbus_cubemx\cmd.o: ../Middlewares/Third_Party/RealThread_RTOS/include/rtservice.h
+modbus_cubemx\cmd.o: ../Middlewares/Third_Party/RealThread_RTOS/finsh/finsh_api.h
+modbus_cubemx\cmd.o: ../Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh.h
+modbus_cubemx\cmd.o: ../Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_api.h
+modbus_cubemx\cmd.o: D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin\..\include\stdio.h
+modbus_cubemx\cmd.o: D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin\..\include\ctype.h
+modbus_cubemx\cmd.o: D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin\..\include\stdlib.h
+modbus_cubemx\cmd.o: D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin\..\include\stdint.h
+modbus_cubemx\cmd.o: D:\environment\Stm32\Kali_v5_5.36\ARM\ARMCC\Bin\..\include\string.h

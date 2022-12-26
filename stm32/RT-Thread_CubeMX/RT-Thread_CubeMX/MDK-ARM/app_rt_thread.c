@@ -39,7 +39,7 @@ void MX_RT_Thread_Init(void)
 void MX_RT_Thread_Process(void)
 {
 	printf("Hello RT_Thread!!!\r\n");
-	rt_thread_delay(2000);
+	rt_thread_delay(100000);
 }
  
 //LED1хннЯ
