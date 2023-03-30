@@ -12,6 +12,11 @@ struct rt_thread led1_thread;
 rt_uint8_t rt_led1_thread_stack[128];
 void led1_task_entry(void *parameter);
 
+struct rt_thread aht_thread;
+rt_uint8_t rt_aht_thread_stack[128];
+void aht_task_entry(void *parameter);
+
+
 int fputc(int ch,FILE *f)
 {
     HAL_UART_Transmit(&huart1,(uint8_t *)&ch,1,0xFFFF);    
@@ -28,12 +33,17 @@ void MX_RT_Thread_Init(void)
 	rt_thread_init(&led1_thread,"led1",led1_task_entry,RT_NULL,&rt_led1_thread_stack[0],sizeof(rt_led1_thread_stack),3,20);
 	//开启线程调度
 	rt_thread_startup(&led1_thread);
+	/*//初始化aht线程
+	rt_thread_init(&aht_thread,"aht",aht_task_entry,RT_NULL,&rt_aht_thread_stack[0],sizeof(rt_aht_thread_stack),3,20);
+	//开启线程调度
+	rt_thread_startup(&aht_thread);*/
 }
  
 //主任务
 void MX_RT_Thread_Process(void)
 {
 	(void)eMBPoll();	//启动modbus监听
+	//rt_thread_delay(2000);
 }
  
 //LED1任务
@@ -45,5 +55,13 @@ void led1_task_entry(void *parameter)
 		rt_thread_delay(500);
 		HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13, GPIO_PIN_SET);
 		rt_thread_delay(500);
+	}
+}
+
+
+void aht_task_entry(void *parameter){
+	while(1){
+		(void)eMBPoll();	//启动modbus监听
+		rt_thread_delay(2000);
 	}
 }
